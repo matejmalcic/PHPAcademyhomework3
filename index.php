@@ -74,7 +74,7 @@
                     }
 
                     if(!in_array($_FILES['image']['type'], $acceptable) && (!empty($_FILES["image"]["type"]))) {
-                        $errors[] = 'Invalid file type. Only PDF, JPG, GIF and PNG types are accepted.';
+                        $errors[] = 'Invalid file type. Only JPEG, JPG and PNG types are accepted.';
                     }
 
                     if(count($errors) === 0) {
